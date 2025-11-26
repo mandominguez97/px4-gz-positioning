@@ -1,5 +1,5 @@
 # PX4 SITL Gazebo Sim Local Positioning
-![Release](https://img.shields.io/github/v/release/mdominmo/px4-gz-positioning)
+![GitHub tag](https://img.shields.io/github/v/tag/mdominmo/px4-gz-positioning)
 ![GitHub](https://img.shields.io/github/license/mdominmo/px4-gz-positioning)
 
 This repository aims to provide Local positioning to simulated **PX4-based** UAVs from the **Gazebo Transport API**.
