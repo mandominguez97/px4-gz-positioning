@@ -73,7 +73,8 @@ Neither **x500**, nor **x500_mono_cam** can be used for this purpose because of 
 
 In order to make the autopilot working without GPS sensor fusioning you need to set these parameters to the following values:
 
-[!Note] You can do this via [QGround Control](https://qgroundcontrol.com/).
+> [!NOTE]
+> You can do this via [QGround Control](https://qgroundcontrol.com/).
 
 | Parameter | Value |
 |--------------|--------------|
@@ -94,7 +95,8 @@ ros2 launch px4_gz_positioning launch.py num_vehicles:=n
 
 Where **n** is the number of vehicles in wich the vehicle visual odometry will be injected. This will create a set of **n** ros2 nodes publishing from vehicles **px4_1** to **px4_n**. 
 
-[!Note] By the moment, you will need to change to **OFFBOARD** mode manually because of the safety flightchecks.
+> [!NOTE]
+> By the moment, you will need to change to **OFFBOARD** mode manually because of the safety flightchecks.
 
 ## Support
 
